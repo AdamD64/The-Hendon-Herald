@@ -98,9 +98,6 @@ article {
     margin-bottom: 1px;
     color: #404040;
     display: inline-block;
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-top-color: #aaa;
 }
 
 article div {
@@ -127,7 +124,6 @@ thead #Points {
     height: 278px;
     width: 370px;
     margin-top: 7px;
-    padding-bottom: 8px;
     padding-top: 14px;
 }
 
