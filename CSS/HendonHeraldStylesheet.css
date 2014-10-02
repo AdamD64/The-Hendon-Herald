@@ -19,6 +19,12 @@ h3 {
     font: bold;
 }
 
+h4{
+    color: #FFF;
+    font-size: 15px;
+    font: bold;
+}
+
 header {
     background-color: #700b0b;
     color: #FFF;
@@ -56,15 +62,18 @@ body {
     display: block;
 }
 
+
 main img {
     width: 300px;
     height: 270px;
+    display:inline-block;
 }
 
 aside {
-    float: right;
+    display: inline-block;
     width: 200px;
     vertical-align: top;
+
 }
 
 aside table {
@@ -79,12 +88,13 @@ aside h3 {
     background-color: #700b0b;
     color: #FFF;
     font: bold;
+
 }
 
 main {
-    background-color: #f2f2f2;
+    background-color: #f4f4f4;
     width: 780px;
-    position: absolute;
+    display:inline-block;
 }
 
 footer {
@@ -142,7 +152,7 @@ thead #Points {
 }
 
 #ContentContainer {
-    width: 980px;
+    width: 986px;
     margin-top: 0;
     margin-bottom: 0;
     Margin-left: auto;
@@ -159,4 +169,19 @@ li#Links {
     color: #FFF;
     font-size: 21px;
     font: bold;
+}
+
+.error {
+    outline:3px;
+    outline-style: solid;
+    outline-color: #700b0b  ;
+}
+
+input {
+    width:160px;
+}
+
+button {
+    width:70px;
+    height:20px;
 }
